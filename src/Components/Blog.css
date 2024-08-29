@@ -1,0 +1,61 @@
+.blog {
+    padding: 2rem;
+    background-color: #F5F5F5;
+  }
+  
+  .blog h1 {
+    text-align: center;
+    color: #2A2A2A;
+    margin-bottom: 2rem;
+  }
+  
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .blog-post {
+    background-color: #FFFFFF;
+    border: 1px solid #EFE8D8;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .post-content {
+    padding: 1.5rem;
+  }
+  
+  .post-content h2 {
+    color: #2C3E50;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .post-content p {
+    color: #2A2A2A;
+    margin-bottom: 1rem;
+  }
+  
+  .read-more {
+    color: #F39C12;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .read-more:hover {
+    color: #D88A0A;
+  }
+  

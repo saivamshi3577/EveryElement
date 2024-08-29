@@ -1,0 +1,257 @@
+
+.about-us {
+    font-family: Arial, sans-serif;
+    color: #2A2A2A; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #F5F5F5; 
+  }
+  
+  .intro-content {
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .intro h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #2C3E50; 
+  }
+  
+  .intro p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+  
+  .intro-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .services {
+    padding: 4rem 2rem;
+    background-color: #FFFFFF; 
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #2C3E50;
+  }
+  
+  .service-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    max-width: 400px;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, filter 0.3s;
+  }
+  
+  .service-item:hover img {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+  }
+  
+  .service-info h3 {
+    font-size: 1.75rem;
+    margin-top: 0.5rem;
+    color: #2C3E50; 
+  }
+  
+  .service-info p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #2A2A2A; 
+  }
+  
+
+  .founders {
+    padding: 4rem 2rem;
+    background-color: #EFE8D8; 
+  }
+  
+  .founders h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #2C3E50; 
+  }
+  
+  .founder-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .founder-item {
+    max-width: 300px;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .founder-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .founder-item h3 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #2C3E50; 
+  }
+  
+  .founder-item p {
+    font-size: 1rem;
+    color: #2A2A2A; 
+  }
+  
+  
+  .cities {
+    padding: 4rem 2rem;
+    background-color: #FFFFFF; 
+  }
+  
+  .cities h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #2C3E50; 
+  }
+  
+  .cities-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .city-item {
+    max-width: 300px;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .city-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, filter 0.3s;
+  }
+  
+  .city-item:hover img {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+  }
+  
+  .city-item h3 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #2C3E50; 
+  }
+  
+ 
+  .employee-quotes {
+    padding: 4rem 2rem;
+    background-color: #F5F5F5; 
+  }
+  
+  .employee-quotes h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #2C3E50;
+  }
+  
+  .quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quotes blockquote {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-left: 4px solid #F39C12; /* Warm Gold */
+    background-color: #FFFFFF; /* White */
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .quotes blockquote::before {
+    content: "“";
+    font-size: 2rem;
+    color: #F39C12; /* Warm Gold */
+    position: absolute;
+    left: 0;
+    top: -0.5rem;
+    font-weight: bold;
+  }
+  
+  .quotes blockquote::after {
+    content: "”";
+    font-size: 2rem;
+    color: #F39C12; /* Warm Gold */
+    position: absolute;
+    right: 0;
+    bottom: -0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .service-details, .founder-list, .cities-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-item, .founder-item, .city-item {
+      max-width: 100%;
+      margin: 0.5rem 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .intro h1 {
+      font-size: 2rem;
+    }
+  
+    .intro p, .service-info p, .founder-item p, .city-item h3 {
+      font-size: 0.875rem;
+    }
+  
+    .employee-quotes h2, .cities h2, .founders h2 {
+      font-size: 2rem;
+    }
+  }
+  

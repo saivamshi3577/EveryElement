@@ -1,9 +1,8 @@
-// src/components/Login.js
 import React, { useState } from 'react';
 import './Login.css';
 
-const Login = ({ onNavigate }) => {
-  const [view, setView] = useState('login'); // 'login', 'forgot-password', 'sign-up'
+const Login = () => {
+  const [view, setView] = useState('login');
 
   const handleSignUpClick = () => setView('sign-up');
   const handleForgotPasswordClick = () => setView('forgot-password');

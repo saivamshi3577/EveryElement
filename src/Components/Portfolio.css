@@ -1,11 +1,10 @@
-/* Portfolio Styles */
 .portfolio {
     padding: 2rem;
-    background-color: #F5F5F5; /* Light Gray */
+    background-color: #F5F5F5; 
   }
   
   h1 {
-    color: #2C3E50; /* Midnight Blue */
+    color: #2C3E50; 
     text-align: center;
     margin-bottom: 2rem;
   }
@@ -15,7 +14,7 @@
   }
   
   h2 {
-    color: #2C3E50; /* Midnight Blue */
+    color: #2C3E50; 
     margin-bottom: 1rem;
   }
   
@@ -27,12 +26,12 @@
   }
   
   .project-card {
-    background-color: #FFFFFF; /* White */
+    background-color: #FFFFFF; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
-    width: calc(33.333% - 1rem); /* 3 cards per row with spacing */
+    width: calc(33.333% - 1rem); 
     max-width: 350px;
     margin: 0 auto;
   }
@@ -44,7 +43,7 @@
   .project-image {
     width: 100%;
     height: auto;
-    border-bottom: 1px solid #E0E0E0; /* Light Gray border for separation */
+    border-bottom: 1px solid #E0E0E0; 
   }
   
   .project-info {

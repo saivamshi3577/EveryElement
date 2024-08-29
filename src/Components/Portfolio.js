@@ -1,4 +1,3 @@
-// src/components/Portfolio.js
 import React from 'react';
 import './Portfolio.css';
 import residentialLivingRoom from '../assets/residential-living-room.jpg';
@@ -11,10 +10,6 @@ import beforeAfterLivingRoom from '../assets/before-after-living-room.jpg';
 import beforeAfterKitchen from '../assets/before-after-kitchen.jpg';
 import facadeDesign from '../assets/facade-design.jpg';
 import landscaping from '../assets/landscaping.jpg';
-// import outdoorLighting from '../assets/outdoor-lighting.jpg';
-// import frontEntrance from '../assets/front-entrance.jpg';
-// import terracePatio from '../assets/terrace-patio.jpg';
-
 const interiorProjects = [
   {
     title: 'Modern Living Room',

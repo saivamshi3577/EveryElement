@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Login.css';
-
 const Login = () => {
   const [view, setView] = useState('login');
 

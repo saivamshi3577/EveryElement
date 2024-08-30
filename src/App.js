@@ -9,7 +9,7 @@ import Blog from './Components/Blog';
 import ContactUs from './Components/ContactUs';
 import Login from './Components/login';
 import Footer from './Components/Footer';
-
+import ThankYou from './Components/thankyou';
 function App() {
   return (
     <Router>
@@ -23,6 +23,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/thankyou" element={<ThankYou/>} />
         </Routes>
         <Footer />
       </div>

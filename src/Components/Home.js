@@ -63,7 +63,7 @@ const Home = () => {
 
       <section className="why-choose-us">
         <h2>Why Choose Every Element?</h2>
-        <ul>
+        <ul className =" listeditems">
           <li>Tailored Designs: Reflecting your unique style.</li>
           <li>Expert Team: Collaborate with top-notch designers.</li>
           <li>Comprehensive Service: From initial concept to final touch.</li>
@@ -74,6 +74,18 @@ const Home = () => {
       <section className="client-testimonials">
         <h2>Client Testimonials</h2>
         <div className="testimonials">
+          <div className="testimonial">
+            <img src={clientTestimonial} alt="Client Testimonial" />
+            <blockquote>
+              “Every Element created a beautiful and functional space for us. We couldn't be happier!” – Satisfied Client
+            </blockquote>
+          </div>
+          <div className="testimonial">
+            <img src={clientTestimonial} alt="Client Testimonial" />
+            <blockquote>
+              “Every Element created a beautiful and functional space for us. We couldn't be happier!” – Satisfied Client
+            </blockquote>
+          </div>
           <div className="testimonial">
             <img src={clientTestimonial} alt="Client Testimonial" />
             <blockquote>

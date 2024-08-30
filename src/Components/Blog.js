@@ -10,19 +10,19 @@ const blogPosts = [
     title: 'Top Interior Design Trends for 2024',
     description: 'Explore the latest trends in interior design and how to incorporate them into your home.',
     image: blogTrends2024,
-    link: '/blog/trends-2024',
+    link: '/login',
   },
   {
     title: 'How to Choose the Perfect Sofa',
     description: 'A comprehensive guide to finding the right sofa that fits your style and space.',
     image: blogSofaGuide,
-    link: '/blog/sofa-guide',
+    link: '/login',
   },
   {
     title: 'Exterior Design Tips for a Stunning Curb Appeal',
     description: 'Enhance your home’s exterior with these practical design tips.',
     image: blogExteriorTips,
-    link: '/blog/exterior-tips',
+    link: '/login',
   },
 ];
 

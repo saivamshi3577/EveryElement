@@ -158,6 +158,11 @@
   text-align: center;
 }
 
+.listeditems{
+  
+  align-content: center;
+  text-align: center;
+}
 .social-media {
   padding: 2rem;
   background-color: #FFFFFF; 

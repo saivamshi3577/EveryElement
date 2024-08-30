@@ -24,7 +24,7 @@ const Home = () => {
           <h1>Transform Your Space with Every Element</h1>
           <p>Innovative interior and exterior design solutions crafted to suit every aspect of your lifestyle.</p>
           <div className="cta-buttons">
-            <a href="/consultation" className="cta-button">Book a Free Consultation</a>
+            <a href="/contact" className="cta-button">Book a Free Consultation</a>
             <a href="/portfolio" className="cta-button">Explore Our Work</a>
           </div>
         </div>

@@ -6,10 +6,15 @@ import commercialOffice from '../assets/commercial-office.jpg';
 import commercialRestaurant from '../assets/commercial-restaurant.jpg';
 import specialtyHomeOffice from '../assets/specialty-home-office.jpg';
 import specialtyGym from '../assets/specialty-gym.jpg';
-import beforeAfterLivingRoom from '../assets/before-after-living-room.jpg';
-import beforeAfterKitchen from '../assets/before-after-kitchen.jpg';
+import AfterLivingRoom from '../assets/after-living.jpg';
+import beforeLivingRoom from '../assets/before-living.jpg';
+import AfterKitchen from '../assets/after-kitchen.jpg';
+import beforeKitchen from '../assets/before-kitchen.jpg';
 import facadeDesign from '../assets/facade-design.jpg';
 import landscaping from '../assets/landscaping.jpg';
+import residentialhall from '../assets/residential-hall.jpg';
+import commercialtheatre from '../assets/commercial-theatre.jpg'
+
 const interiorProjects = [
   {
     title: 'Modern Living Room',
@@ -17,6 +22,13 @@ const interiorProjects = [
     dateCompleted: 'March 2023',
     remarks: 'Revamped space with contemporary furnishings and smart lighting.',
     image: residentialLivingRoom
+  },
+  {
+    title: 'Elegant Hall Remodel',
+    description: 'A hall makeover featuring high-end finishes and stylish déco',
+    dateCompleted: 'Sep 2023',
+    remarks: 'Enhanced functionality and visual appeal with custom furniture and new flooring.',
+    image: residentialhall
   },
   {
     title: 'Elegant Kitchen Remodel',
@@ -43,6 +55,13 @@ const commercialProjects = [
     remarks: 'Sophisticated decor and layout aimed at maximizing ambiance.',
     image: commercialRestaurant
   },
+  {
+    title: 'Monk Theatre Interior',
+    description: 'A fantastic theatre design that enhances good sound and user experiences.',
+    dateCompleted: 'December 2023',
+    remarks: 'Sophisticated decor and layout aimed at maximizing ambiance.',
+    image: commercialtheatre
+  },
   // Add more commercial projects as needed
 ];
 
@@ -67,14 +86,14 @@ const beforeAfterProjects = [
   {
     title: 'Living Room Transformation',
     description: 'Before and after photos showcasing a dramatic living room redesign.',
-    imageBefore: beforeAfterLivingRoom,
-    imageAfter: beforeAfterLivingRoom,
+    imageBefore: beforeLivingRoom,
+    imageAfter: AfterLivingRoom,
   },
   {
     title: 'Kitchen Makeover',
     description: 'Highlighting the transformation of a kitchen space.',
-    imageBefore: beforeAfterKitchen,
-    imageAfter: beforeAfterKitchen,
+    imageBefore: beforeKitchen,
+    imageAfter: AfterKitchen,
   },
 ];
 

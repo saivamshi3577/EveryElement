@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../assets/logo.png'; 
+import logo from '../assets/footerlogo.png'; 
 import facebookIcon from '../assets/facebook-icon.png'; 
 import instagramIcon from '../assets/instagram-icon.png'; 
 import linkedinIcon from '../assets/linkedin-icon.png'; 
@@ -25,9 +25,9 @@ const Footer = () => {
         </div>
         <div className="footer-contact">
           <h3>Contact Us</h3>
-          <p>Email: <a href="mailto:info@everyelement.com">contact@everyelement.com</a></p>
-          <p>Phone: <a href="tel:+123456789">+91 8688360300</a></p>
-          <p>Address: Dilsukhnagar , Hyderabad</p>
+          <p>Email: infoeveryelement@gmail.com </p>
+          <p>Phone: +91 8688360300 </p>
+          <p>Address:Plot no : 6 , Road no -9 , padmavathinagar , Hasthinapur , Hyderabad , 500079</p>
         </div>
         <div className="footer-social">
           <a href="https://www.facebook.com/profile.php?id=100011648256218" target="_blank" rel="noopener noreferrer">

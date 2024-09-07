@@ -10,6 +10,8 @@ import facebookIcon from '../assets/facebook-icon.png';
 import instagramIcon from '../assets/instagram-icon.png'; 
 import linkedinIcon from '../assets/linkedin-icon.png'; 
 import twitterIcon from '../assets/twitter-icon.png'; 
+import clientTestimonial2 from '../assets/image 1 (3).png';
+import clientTestimonial3 from '../assets/image 2 (2).png';
 const Home = () => {
   const [faqOpen, setFaqOpen] = useState(null);
 
@@ -77,19 +79,19 @@ const Home = () => {
           <div className="testimonial">
             <img src={clientTestimonial} alt="Client Testimonial" />
             <blockquote>
-              “Every Element created a beautiful and functional space for us. We couldn't be happier!” – Satisfied Client
+              “Every Element created a beautiful and functional space for us. We couldn't be happier!” – Mr . Vinay
             </blockquote>
           </div>
           <div className="testimonial">
-            <img src={clientTestimonial} alt="Client Testimonial" />
+            <img src={clientTestimonial2} alt="Client Testimonial" />
             <blockquote>
-              “Every Element created a beautiful and functional space for us. We couldn't be happier!” – Satisfied Client
+              ““Every Element transformed our home into a dream space! Their attention to detail and creative solutions exceeded our expectations.” – Mr . EVS!
             </blockquote>
           </div>
           <div className="testimonial">
-            <img src={clientTestimonial} alt="Client Testimonial" />
+            <img src={clientTestimonial3} alt="Client Testimonial" />
             <blockquote>
-              “Every Element created a beautiful and functional space for us. We couldn't be happier!” – Satisfied Client
+              “Every Element brought our vision to life with exceptional style and functionality. We couldn’t be more pleased with the results! – Mr . Nikhil
             </blockquote>
           </div>
         </div>

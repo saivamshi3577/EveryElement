@@ -87,6 +87,7 @@
   justify-content: center;
 }
 
+
 .project-item {
   max-width: 100%;
   text-align: center;
@@ -123,8 +124,7 @@
 }
 
 .testimonial img {
-  width: 100px;
-  height: auto;
+  width: 10%;
   border-radius: 50%;
 }
 
@@ -136,7 +136,7 @@
 .blog-posts {
   display: flex;
   justify-content: center;
-  height: 22em;
+  height: 25em;
 }
 
 .blog-post {
@@ -179,7 +179,7 @@
   height: auto;
 }
 
-/* FAQ Section */
+
 .faq-section {
   padding: 2rem;
   background-color: #FFFFFF;

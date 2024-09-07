@@ -26,7 +26,7 @@ const ContactUs = () => {
       .then(
         () => {
           console.log('SUCCESS!');
-          navigate('/thank-you');
+          navigate('/thankyou');
         },
         (error) => {
           console.log('FAILED...', error.text);
